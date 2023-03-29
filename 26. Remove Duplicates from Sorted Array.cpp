@@ -1,4 +1,4 @@
-// Remove Duplicates from sorted array
+// 26. Remove Duplicates from Sorted Array
 
 #include <bits/stdc++.h>
 
