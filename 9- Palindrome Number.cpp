@@ -1,8 +1,12 @@
+// 9. Palindrome Number
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
 class Solution {
 public:
     bool isPalindrome(int x) {
-        
-        
         int min = INT_MIN;
         int max = INT_MAX;
         int rem, temp;
@@ -34,3 +38,17 @@ public:
         return false;
     }
 };
+
+int main(){
+    int x = 121;
+
+    Solution soln;
+
+    if(soln.isPalindrome(x)){
+        cout<<"Palindrome.";
+    }
+    else{
+        cout<<"Not Palindrome.";
+    }
+    return 0;
+}
